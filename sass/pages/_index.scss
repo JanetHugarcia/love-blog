@@ -1,0 +1,59 @@
+.franja{
+	height:100px;
+}
+
+.banner{
+	position:relative;
+	width:100%;
+	bottom:100px;
+	background-image:url('../images/slider.jpg') ;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 500px;
+	
+}
+
+article{
+	padding-right:40px;
+	margin-bottom:40px;
+	p{
+		font-family:'HelveticaNeue';
+		color:#000;
+	}
+	.media{
+		.media-object{
+			margin:5px 15px 0px 0px;
+		}
+		.media-body{
+			h4{
+				color:$orange;
+				@include propertieich;
+				padding:5px;
+				line-height: 1.5;
+			}
+		}
+	}
+}
+.previewgallery{
+	font-family:'Beba';
+	h4{
+		@include propertieich;
+		margin-top:3px;
+		color:gray;
+	}
+	
+	.info{
+		border-left:1px solid $gris;
+		border-right:1px solid $gris;
+		border-bottom:1px solid $gris;
+		padding:20px;
+		span{
+			color:$orange;
+			font-size: .7em;
+		}
+		img{
+			width: 100%;
+		}
+	}
+}
+

@@ -1,0 +1,83 @@
+$orange:#E7663B;
+$orangelight:#F1AE9D;
+$gris:rgba(0,0,0,.3);
+
+@font-face{
+	font-family: 'Beba';
+	src:url('../font/bebas___-webfont.ttf');
+}
+@font-face{
+	font-family: 'HelveticaNeue';
+	src:url('../font/HelveticaNeue.ttf');
+	src:url('../font/HelveticaNeue.eot');
+	src:url('../font/HelveticaNeue.woff');
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h3,h4{
+	margin:0;
+}
+body{
+	font-size:16px;
+}
+.mgt{
+	margin-top:-80px;
+}
+.pd{
+	padding:0px;
+}
+.pdb{
+	padding-bottom:50px;
+}
+.row{
+	border-left:15px solid white;
+	border-right:15px solid white;	
+}
+.franja{
+	background:$orangelight ;
+	
+	
+	.liston{
+		border-left:15px solid white;
+		border-right:15px solid white;
+		color: white;
+		background-color:$orange;
+		text-transform: uppercase;
+		padding:10px 0px;
+	}
+
+}
+
+.boton{
+	font-family:'Beba';
+	display:inline-block;
+	margin-top:15px;
+	text-transform:uppercase;
+	color:white;
+	background-color:$orange;
+	padding:10px 15px 6px;
+	border:1px solid transparent;
+	&:hover{
+		text-decoration: none;
+		border:1px solid $orange;
+		background-color: $orangelight;
+		transition: all 1s;
+	}
+}
+.bck{
+	background-image:url(../images/bck1.png);
+	background-repeat:repeat;
+	margin-bottom:30px;
+	h3{
+		display: inline-block;
+		font-family: 'Beba';
+		padding:4px 35px 3px 0px;
+		background-color:white;
+		color:$orange;
+		text-transform: uppercase;
+	}
+}
