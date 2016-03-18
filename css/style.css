@@ -18,7 +18,7 @@ body {
   font-size: 16px; }
 
 .mgt {
-  margin-top: -80px; }
+  margin-top: -30px; }
 
 .pd {
   padding: 0px; }
@@ -43,11 +43,11 @@ body {
 .boton {
   font-family: 'Beba';
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 8px 15px;
   text-transform: uppercase;
   color: white;
   background-color: #E7663B;
-  padding: 10px 15px 6px;
+  padding: 8px 15px;
   border: 1px solid transparent; }
   .boton:hover {
     text-decoration: none;
@@ -70,42 +70,46 @@ body {
 header {
   font-family: 'Beba'; }
 
+.navbar {
+  margin-bottom: 0px; }
+
 .franja {
-  height: 100px; }
+  height: 50px; }
 
 .banner {
   position: relative;
-  width: 100%;
-  bottom: 100px;
+  bottom: 50px;
   background-image: url("../images/slider.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 500px; }
 
 article {
   padding-right: 40px;
   margin-bottom: 40px; }
   article p {
-    font-family: 'HelveticaNeue';
     color: #000; }
   article .media .media-object {
     margin: 5px 15px 0px 0px; }
   article .media .media-body h4 {
     color: #E7663B;
-    text-transform: uppercase;
     font-family: 'Beba';
     font-size: 1.1em;
+    word-spacing: 3px;
     padding: 5px;
     line-height: 1.5; }
 
 .previewgallery {
   font-family: 'Beba'; }
   .previewgallery h4 {
-    text-transform: uppercase;
     font-family: 'Beba';
     font-size: 1.1em;
+    word-spacing: 3px;
     margin-top: 3px;
     color: gray; }
+  .previewgallery img {
+    width: 100%; }
   .previewgallery .info {
     border-left: 1px solid rgba(0, 0, 0, 0.3);
     border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -114,7 +118,5 @@ article {
     .previewgallery .info span {
       color: #E7663B;
       font-size: .7em; }
-    .previewgallery .info img {
-      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
