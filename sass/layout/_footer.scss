@@ -1,0 +1,22 @@
+footer{
+	.franja{
+		.liston{
+			padding:5px 10px;
+		}
+	}
+	article{
+		padding-right:60px;
+
+		h2{
+			@include propertieich;
+			font-size: 1.3em;
+		}
+		p{
+			font-family: 'Helvetica Neue';
+			text-transform: none;
+			font-size: .9em;
+			color:white;
+		}
+	}
+	
+}

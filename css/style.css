@@ -2,10 +2,13 @@
   font-family: 'Beba';
   src: url("../font/bebas___-webfont.ttf"); }
 @font-face {
-  font-family: 'HelveticaNeue';
+  font-family: 'Helvetica Neue';
   src: url("../font/HelveticaNeue.ttf");
   src: url("../font/HelveticaNeue.eot");
   src: url("../font/HelveticaNeue.woff"); }
+article {
+  padding-right: 60px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +20,17 @@ h3, h4 {
 body {
   font-size: 16px; }
 
+.colort {
+  color: transparent; }
+
 .mgt {
   margin-top: -30px; }
 
 .pd {
   padding: 0px; }
+
+.pdt {
+  padding: 10px 0px; }
 
 .pdb {
   padding-bottom: 50px; }
@@ -33,12 +42,11 @@ body {
 .franja {
   background: #F1AE9D; }
   .franja .liston {
-    border-left: 15px solid white;
-    border-right: 15px solid white;
     color: white;
     background-color: #E7663B;
     text-transform: uppercase;
-    padding: 10px 0px; }
+    padding: 10px;
+    font-family: 'Beba'; }
 
 .boton {
   font-family: 'Beba';
@@ -71,12 +79,38 @@ header {
   font-family: 'Beba'; }
 
 .navbar {
+  margin-top: 15px;
   margin-bottom: 0px; }
+  .navbar li a {
+    padding: 5px 15px; }
+  .navbar .active {
+    background-color: #E7663B;
+    color: white; }
+  .navbar .caja {
+    border: 1px solid #E7663B;
+    background-color: #F1AE9D;
+    width: 80px;
+    height: 80px;
+    display: inline-block; }
 
-.franja {
+footer .franja .liston {
+  padding: 5px 10px; }
+footer article {
+  padding-right: 60px; }
+  footer article h2 {
+    font-family: 'Beba';
+    font-size: 1.1em;
+    word-spacing: 3px;
+    font-size: 1.3em; }
+  footer article p {
+    font-family: 'Helvetica Neue';
+    text-transform: none;
+    font-size: .9em;
+    color: white; }
+
+.principal .franja {
   height: 50px; }
-
-.banner {
+.principal .banner {
   position: relative;
   bottom: 50px;
   background-image: url("../images/slider.jpg");
@@ -90,8 +124,6 @@ article {
   margin-bottom: 40px; }
   article p {
     color: #000; }
-  article .media .media-object {
-    margin: 5px 15px 0px 0px; }
   article .media .media-body h4 {
     color: #E7663B;
     font-family: 'Beba';
@@ -118,5 +150,65 @@ article {
     .previewgallery .info span {
       color: #E7663B;
       font-size: .7em; }
+
+.contenido {
+  padding-top: 20px; }
+  .contenido p {
+    color: black;
+    font-size: .9em; }
+  .contenido .imgarticle {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-right: 5px; }
+    .contenido .imgarticle img {
+      width: 100%; }
+  .contenido .media {
+    margin: 0px 0px 20px; }
+  .contenido blockquote {
+    width: 80%;
+    margin: 30px auto;
+    padding: 0px 20px;
+    border-color: #E7663B; }
+    .contenido blockquote p {
+      color: #E7663B;
+      line-height: 1.5; }
+  .contenido .bck {
+    margin-bottom: 15px; }
+    .contenido .bck h3 {
+      font-size: 1em; }
+  .contenido a {
+    display: block;
+    color: black;
+    font-size: .9em; }
+  .contenido .caja {
+    border: 1px solid #E7663B;
+    background-color: #F1AE9D;
+    width: 55px;
+    height: 55px;
+    display: inline-block; }
+
+.contenido article .imgbefore {
+  position: relative; }
+  .contenido article .imgbefore img {
+    width: 100%;
+    margin-bottom: 10px; }
+  .contenido article .imgbefore:before {
+    content: url("../images/icon1.png");
+    position: absolute;
+    left: -90px; }
+.contenido article h3 {
+  font-family: 'Beba';
+  font-size: 1.1em;
+  word-spacing: 3px;
+  padding-top: 3px;
+  color: #E7663B;
+  font-size: .9em;
+  margin: 15px 0px; }
+.contenido article a {
+  display: inline-block; }
+
+@media screen and (max-width: 768px) {
+  .contenido .media .media-body {
+    overflow: initial; } }
 
 /*# sourceMappingURL=style.css.map */

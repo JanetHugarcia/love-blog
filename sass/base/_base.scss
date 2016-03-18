@@ -7,12 +7,14 @@ $gris:rgba(0,0,0,.3);
 	src:url('../font/bebas___-webfont.ttf');
 }
 @font-face{
-	font-family: 'HelveticaNeue';
+	font-family: 'Helvetica Neue';
 	src:url('../font/HelveticaNeue.ttf');
 	src:url('../font/HelveticaNeue.eot');
 	src:url('../font/HelveticaNeue.woff');
 }
-
+article{
+	padding-right:60px;
+}
 *{
 	margin:0;
 	padding:0;
@@ -24,11 +26,17 @@ h3,h4{
 body{
 	font-size:16px;
 }
+.colort{
+	color:transparent;
+}
 .mgt{
 	margin-top:-30px;
 }
 .pd{
 	padding:0px;
+}
+.pdt{
+	padding:10px 0px;
 }
 .pdb{
 	padding-bottom:50px;
@@ -39,15 +47,12 @@ body{
 }
 .franja{
 	background:$orangelight ;
-	
-	
 	.liston{
-		border-left:15px solid white;
-		border-right:15px solid white;
 		color: white;
 		background-color:$orange;
 		text-transform: uppercase;
-		padding:10px 0px;
+		padding:10px;
+		font-family: 'Beba';
 	}
 
 }

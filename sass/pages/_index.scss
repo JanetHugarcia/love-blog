@@ -1,15 +1,18 @@
-.franja{
-	height:50px;
+.principal{
+	.franja{
+		height:50px;
+	}
+	.banner{
+		position:relative;
+		bottom:50px;
+		background-image:url('../images/slider.jpg') ;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+		height: 500px;
+	}
 }
-.banner{
-	position:relative;
-	bottom:50px;
-	background-image:url('../images/slider.jpg') ;
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center;
-	height: 500px;
-}
+
 
 article{
 	padding-right:40px;
@@ -17,10 +20,7 @@ article{
 	p{
 		color:#000;
 	}
-	.media{
-		.media-object{
-			margin:5px 15px 0px 0px;
-		}
+	.media{	
 		.media-body{
 			h4{
 				color:$orange;

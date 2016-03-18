@@ -2,6 +2,23 @@ header{
 		font-family: 'Beba';
 }
 .navbar {
-   margin-bottom: 0px; 
-
+	margin-top:15px;
+	margin-bottom: 0px;
+	   li{
+		   	a{
+		   		padding:5px 15px;
+		   } 
+	   }
+   
+   .active{
+   		background-color:$orange;
+   		color:white;
+   }
+	.caja{
+		border:1px solid $orange;
+		background-color:$orangelight;
+		width: 80px;
+		height:80px;
+		display: inline-block;
+	}
 }

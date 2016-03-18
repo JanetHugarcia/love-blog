@@ -1,0 +1,28 @@
+.contenido{
+	article{
+		.imgbefore{
+			position:relative;
+			img{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			&:before{
+				content:url('../images/icon1.png');
+				position: absolute;
+				left:-90px;
+			}
+		}
+		
+		h3{
+			@include propertieich;
+			padding-top: 3px;
+			color:$orange;
+			font-size: .9em;
+			margin: 15px 0px;
+		}
+		a{
+			display: inline-block;
+		}
+	}
+
+}
