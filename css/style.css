@@ -35,6 +35,9 @@ body {
 .pdb {
   padding-bottom: 50px; }
 
+.pdl {
+  padding: 0px 15px; }
+
 .row {
   border-left: 15px solid white;
   border-right: 15px solid white; }
@@ -157,8 +160,6 @@ article {
     color: black;
     font-size: .9em; }
   .contenido .imgarticle {
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
     margin-right: 5px; }
     .contenido .imgarticle img {
       width: 100%; }
@@ -187,15 +188,39 @@ article {
     height: 55px;
     display: inline-block; }
 
+.imgarticle {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.contenido .boton {
+  color: white;
+  display: inline-block; }
 .contenido article .imgbefore {
-  position: relative; }
+  position: relative;
+  background-color: #F3F3F3; }
   .contenido article .imgbefore img {
-    width: 100%;
-    margin-bottom: 10px; }
-  .contenido article .imgbefore:before {
+    width: 100%; }
+  .contenido article .imgbefore .comilla {
+    position: relative;
+    padding: 30px; }
+    .contenido article .imgbefore .comilla:before {
+      position: absolute;
+      content: url("../images/quote.png");
+      left: 0;
+      top: 15px; }
+  .contenido article .imgbefore .icono {
     content: url("../images/icon1.png");
     position: absolute;
+    top: 0;
     left: -90px; }
+  .contenido article .imgbefore .icono2 {
+    content: url("../images/icon2.png"); }
+  .contenido article .imgbefore .icono3 {
+    content: url("../images/icon3.png"); }
+  .contenido article .imgbefore .icono4 {
+    content: url("../images/icon4.png"); }
+  .contenido article .imgbefore .icono5 {
+    content: url("../images/icon5.png"); }
 .contenido article h3 {
   font-family: 'Beba';
   font-size: 1.1em;
@@ -206,6 +231,8 @@ article {
   margin: 15px 0px; }
 .contenido article a {
   display: inline-block; }
+.contenido article .bckwhite {
+  background-color: white; }
 
 @media screen and (max-width: 768px) {
   .contenido .media .media-body {

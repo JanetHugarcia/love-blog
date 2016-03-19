@@ -1,15 +1,45 @@
 .contenido{
+	.boton{
+			color:white;
+			display: inline-block;
+		}
 	article{
+
 		.imgbefore{
 			position:relative;
+			background-color:#F3F3F3;
 			img{
 				width: 100%;
-				margin-bottom: 10px;
 			}
-			&:before{
+			
+			.comilla{
+				position:relative;
+				padding: 30px;
+				&:before{
+					position:absolute;
+					content:url('../images/quote.png');
+					left:0;
+					top:15px;
+				}
+			}
+
+			.icono{
 				content:url('../images/icon1.png');
 				position: absolute;
+				top:0;
 				left:-90px;
+			}
+			.icono2{
+				content:url('../images/icon2.png');
+			}
+			.icono3{
+				content:url('../images/icon3.png');
+			}
+			.icono4{
+				content:url('../images/icon4.png');
+			}
+			.icono5{
+				content:url('../images/icon5.png');
 			}
 		}
 		
@@ -23,6 +53,10 @@
 		a{
 			display: inline-block;
 		}
+		.bckwhite{
+				background-color:white;
+			}
+
 	}
 
 }
