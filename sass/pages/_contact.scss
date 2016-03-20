@@ -1,0 +1,27 @@
+.contenido{
+	img{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.form-group{
+		font-family: 'Beba';
+		input,textarea{
+			width: 80%;
+			&::-webkit-input-placeholder{
+				color:$orange;
+			}
+			&:placeholder-shown{
+				border:1px solid $orange;
+			}
+		}
+		textarea{
+			width:100%;
+		}
+
+		.btn-submit{
+				background-color: $orange;
+				width: 100%;
+				color:white;
+			}
+	}	
+}

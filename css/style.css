@@ -87,14 +87,24 @@ header {
   .navbar li a {
     padding: 5px 15px; }
   .navbar .active {
-    background-color: #E7663B;
-    color: white; }
+    font-weight: bold;
+    color: #E7663B; }
   .navbar .caja {
     border: 1px solid #E7663B;
     background-color: #F1AE9D;
     width: 80px;
     height: 80px;
     display: inline-block; }
+  .navbar .navbar-brand {
+    color: #E7663B;
+    font-size: 2em; }
+    .navbar .navbar-brand span {
+      color: #F1AE9D; }
+  .navbar .navbar-toggle {
+    margin-top: 0px;
+    background-color: #F1AE9D;
+    border: 1px solid orange;
+    color: white; }
 
 footer .franja .liston {
   padding: 5px 10px; }
@@ -234,8 +244,32 @@ article {
 .contenido article .bckwhite {
   background-color: white; }
 
+.contenido img {
+  width: 100%;
+  margin-bottom: 30px; }
+.contenido .form-group {
+  font-family: 'Beba'; }
+  .contenido .form-group input, .contenido .form-group textarea {
+    width: 80%; }
+    .contenido .form-group input::-webkit-input-placeholder, .contenido .form-group textarea::-webkit-input-placeholder {
+      color: #E7663B; }
+    .contenido .form-group input:placeholder-shown, .contenido .form-group textarea:placeholder-shown {
+      border: 1px solid #E7663B; }
+  .contenido .form-group textarea {
+    width: 100%; }
+  .contenido .form-group .btn-submit {
+    background-color: #E7663B;
+    width: 100%;
+    color: white; }
+
 @media screen and (max-width: 768px) {
   .contenido .media .media-body {
-    overflow: initial; } }
+    overflow: initial; }
+  .contenido .form-group input {
+    width: 100%; }
+
+  article {
+    padding: 0;
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
